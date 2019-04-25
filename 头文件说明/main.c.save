@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h> 
+ //#include <>尖括号在c系统目录查找
+ //""双引号
+
+
+int main()
+{
+    printf("Hello world!\n");
+    return 0;
+}

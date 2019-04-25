@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i=0;
+    //数组名就是数组的首地址
+    double score[] = {11,22,33,44,55,66,77,88};
+    double * ptr_score = score;
+    ptr_score = &score;
+    printf("%p\n",ptr_score);
+    for(i=0; i<8; i++)
+    {
+        //第一种访问方式
+        // printf("%lf\n",ptr_score[i]);
+        //第二种访问方式[实际开发推荐这种方式]
+         printf("%lf\n",*(ptr_score+i));
+        //第三种方森方式 不推荐 容易出现问题 需要重置指针
+        //printf("%lf\n",*ptr_score++);
+    }
+
+    return 0;
+}

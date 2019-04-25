@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1552317788 source:g:\c语言练习\数组与指针的关系\main.c
+	<stdio.h>
+	<stdlib.h>
+

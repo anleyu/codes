@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1552947793 source:g:\c语言练习\json数据处理\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cJSON.h"
+
+1545268504 g:\c语言练习\json数据处理\cjson.h
+	<stddef.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1552942047 source:g:\c语言练习\商城系统模拟\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

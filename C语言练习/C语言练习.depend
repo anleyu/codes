@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1552255472 source:g:\c”Ô—‘¡∑œ∞\c”Ô—‘¡∑œ∞\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<mmsystem.h>
+
