@@ -1,0 +1,54 @@
+git安装
+https://git-scm.com/
+
+Linux 常规指令
+ ll 列出文件       ls -a 列出所有文件（包括隐藏文件）  cat <file> 显示文件内容
+git bash界面
+
+配置信息 git config
+
+git config --global user.name "xxx"                               配置用户名     
+git config --global user.email "xxx@qq.com"                配置用户邮箱  
+
+git init         初始化新建仓库
+git status     查看相关文件的状态
+git add <文件名>     暂存文件的命令
+git commit -a   将被修改的文件暂存并提交的命令  一般用 git commit -m "xxx" 方式提交
+
+git reset HEAD <文件名>   文件回到暂存的状态
+git checkout -- <文件名>  放弃未暂存文件的修改命令   （也用来清理脏文件）
+
+ssh-keggen -t rsa -C "xxx@github.com"       生成ssh-key
+ssh -T git@github.com   连接测试远程仓库
+git remote add origin  git@github.com:xxx/xxx.git      关联远程仓库
+git remote rm origin git@github.com:xxx/xxx.git 命令来删除别名为 origin 的远端地址
+git remote rename origin_ssh origin 命令，将origin_ssh重命名为origin
+git push -u origin master         第一次提交文件到远程仓库（之后使用git push提交）
+git clone  git@github.com:xxx/xxx.git     克隆远程文件（直接操作，无需git init）
+
+git push  提交文件到远程仓库
+git pull   从远程仓库下拉更新文件
+
+
+git log   查看提交版本（查看commit id）
+git reset --hard  <commit id>       回滚到对应的提交记录
+
+git branch     查看所有分支
+git branch  <分支名>     新建分支
+git checkout  <分支名>   切换分支
+git merge  <分支名>    合并分支
+git branch -d  <分支名>    删除分支
+
+git tag        查看所有标签
+git tag  <标签名>    新建标签  ( git tag <标签名> <commit id> 指定版本新增标签）
+git push origin <标签>  远端仓库新增标签
+
+
+
+
+
+
+
+
+
+
